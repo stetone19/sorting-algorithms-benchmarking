@@ -22,13 +22,13 @@ The project was developed in **May 2025** for the **Algorithms and Data Structur
 ### 1. Performance vs. Array Size (n)
 Our analysis shows that while $O(n \log n)$ algorithms perform similarly for small arrays, **Countingsort** becomes the most efficient choice once $n > 10^4$. This occurs because, with a fixed range, the number of duplicate values increases with the size of the array, a scenario where Countingsort excels.
 
-![Performance vs Size](./results/average_case_n.png)
+![Performance vs Size](./results/average_case/n.png)
 *Fig. 1: Execution time in function of array size n.*
 
 ### 2. Performance vs. Value Range (m)
 **Countingsort** is optimal for small ranges but becomes the slowest algorithm when the range $m$ exceeds $10^5$ due to increased memory allocation costs. In contrast, **Mergesort** maintains constant performance regardless of the range since its logic is independent of the values within the array.
 
-![Performance vs Range](./results/average_case_m.png)
+![Performance vs Range](./results/average_case/m.png)
 *Fig. 3: Execution time in function of integer range m.*
 
 ### 3. Worst-Case Scenarios
