@@ -3,7 +3,7 @@
 ## Project Overview
 This repository contains a comprehensive empirical study of sorting algorithms, focusing on how performance varies based on array size ($n$) and the range of values ($m$).
 
-The project was developed in **May 2025** for the **Algorithms and Data Structures** course, part of the **Bachelor's Degree in Computer Science (Triennale di Informatica)** at the **Università degli Studi di Udine**.
+The project was developed in **May 2025** for the **Algorithms and Data Structures** course, part of the **Bachelor's Degree in Computer Science** at the **Università degli Studi di Udine**.
 
 ## Key Features
 * **Algorithms Analyzed**: Implementation of **Quicksort**, **Countingsort**, and **Quicksort 3-way**, with **Mergesort** as the group's custom addition.
